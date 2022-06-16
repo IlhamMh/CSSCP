@@ -1,0 +1,63 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 54, 59);
+    overflow: hidden;
+}
+
+
+
+li {
+    float: left;
+    border-right: 1px solid rgb(237, 237, 233); 
+}
+
+li a {
+    display: block;
+    color: rgb(255, 253, 208);
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.vide {visibility: hidden;}
+
+/*pour changer la couleur du backgroud des éléments du menu au survol de la souris*/
+li a:hover {
+    background-color: rgb(156, 175, 136);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+
+
+.contact {
+    text-align: center;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(228, 240, 208);
+    border: 1px solid rgb(228, 240, 208);
+      
+} 
+
+.contact:hover {
+    background-color: rgb(156, 175, 136);
+    border: 1px solid rgb(156, 175, 136);
+    color: darkgray;
+}
+
+img{width: 80px;
+height: 40x;
+margin-left: 600px;
+position : absolute;
+margin-top: 5px;
+}
